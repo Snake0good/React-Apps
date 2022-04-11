@@ -19,3 +19,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## 03. Customer Reviews
 
 ![reviews](https://user-images.githubusercontent.com/57625094/162754327-31d47424-d3d6-46d4-8b1f-3cbb0a59e829.gif)
+
+## 04. 1-Liner Dad Jokes - Accordion
+
+![1-liner-dad-jokes](https://user-images.githubusercontent.com/57625094/162755717-3189a3e4-8402-4a99-8618-221f50e1d6a2.gif)
