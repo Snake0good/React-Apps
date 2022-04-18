@@ -1,0 +1,83 @@
+const menu = [
+    {
+      id: 1,
+      title: 'whiskey sour',
+      category: 'whiskey',
+      price: 10,
+      img: 'https://images.unsplash.com/photo-1629228735562-b0c229605856?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8d2hpc2tleSUyMHNvdXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
+      desc: `Wow is all we can say about this cocktail recipe! This whiskey sour has become a family favorite: so much so that it now appears at all our extended family gatherings. It's naturally sweet.`,
+    },
+    {
+      id: 2,
+      title: 'classic margarita',
+      category: 'tequila',
+      price: 13,
+      img: 'https://images.unsplash.com/photo-1629666501639-2b0061e36259?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFyZ2FyaXRhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+      desc: `The tart margarita is one of our top cocktail recipes to make at home, and it has endless variations (see below). This one is the classic, made with 3 simple ingredients: lime, Cointreau and tequila!`,
+    },
+    {
+      id: 3,
+      title: 'tom collins',
+      category: 'gin',
+      price: 11,
+      img: 'https://images.unsplash.com/photo-1630071073903-423f86c14389?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dG9tJTIwY29sbGluc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+      desc: `Tom Collins: a nostalgic cocktail that’s about as classic as it gets! This tall highball drink is a gin sour, a sweet and sour drink made with gin. It’s refreshing, bubbly, and makes any evening more fun! `,
+    },
+    {
+      id: 4,
+      title: 'mojito',
+      category: 'rum',
+      price: 13,
+      img: 'https://images.unsplash.com/photo-1632995561645-86a7777d3e7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bW9qaXRvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+      desc: `This iconic Cuban drink is one of the greats. Here’s a recipe for it that’s spot on perfection: not too sweet, bubbly, and minty fresh. Like the margarita, the true version has less sugar and more nuance than what it’s become in bars and pre-made mixes.`,
+    },
+    {
+      id: 5,
+      title: 'gin fizz cocktail',
+      category: 'gin',
+      price: 10,
+      img: 'https://images.unsplash.com/photo-1453824979084-c8fd42932378?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Z2luJTIwZml6enxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+      desc: `This simple cocktail recipe is perfectly balanced, both sweet and tart. And adding soda water magically creates a frothy egg white foam topping. To make it, you'll shake together gin, lemon juice, maple, and egg white in a cocktail shaker, then pour it into two glasses.`,
+    },
+    {
+      id: 6,
+      title: 'old fashioned',
+      category: 'whiskey',
+      price: 11,
+      img: 'https://images.unsplash.com/photo-1595977437232-9a0426ebfe4c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8b2xkJTIwZmFzaGlvbmVkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+      desc: `The Old Fashioned is one of the most famous cocktails there is: possibly because it’s the oldest! This baby dates back to the early 1800’s, before the words classic and cocktail were even said next to each other.`,
+    },
+    {
+      id: 7,
+      title: 'mai tai',
+      category: 'rum',
+      price: 11,
+      img: 'https://images.unsplash.com/photo-1648757997020-94e698e36e55?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bWFpJTIwdGFpfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+      desc: `The Mai Tai is a classic cocktail from the 1940’s that's breathtakingly complex, featuring rum, orange liqueur, and fancy almond syrup. It’s just sweet enough, with nutty and vanilla notes against the sharp citrus. `,
+    },
+    {
+      id: 8,
+      title: 'Cosmpolitan',
+      category: 'vodka',
+      price: 12,
+      img: 'https://images.unsplash.com/photo-1632987788901-0c090e5f4eaf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29zbW9wb2xpdGFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+      desc: `It’s got a brilliant pink color and refreshing flavor: yes, it’s a Cosmo! A Cosmopolitan cocktail, to be exact. Our recipe is more tart than sweet, it's an improved version of the classic using 100% cranberry juice.`,
+    },
+    {
+      id: 9,
+      title: 'dirty martini',
+      category: 'vodka',
+      price: 9,
+      img: 'https://images.unsplash.com/photo-1541807243774-518bdde38627?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGlydHklMjBtYXJ0aW5pfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+      desc: `The martini is one of the most iconic cocktails of all time. The classic martini is just two ingredients: crisp, cool, and spirit-forward. But how to make it even more perfect?`,
+    },
+    {
+    id: 10,
+    title: 'daquiri',
+    category: 'rum',
+    price: 14,
+    img: 'https://images.unsplash.com/photo-1553530666-ba11a7da3888?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c21vb3RoaWV8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60',
+    desc: `A daiquiri is made using rum. And while a daiquiri contains rum, lime juice, and simple syrup, a margarita contains tequila, lime juice, and triple sec (an orange liqueur)`
+    }
+  ];
+  export default menu;
