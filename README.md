@@ -23,7 +23,7 @@ This project was bootstrapped with Create React App.
 # 06. Vacation Tab Seletor
 ![vacation](https://user-images.githubusercontent.com/57625094/164601387-f15d5010-a854-4159-9c71-7697ef546795.gif)
 
-# 07. Favorte Animated Characters Slider
+# 07. Favorite Animated Characters Slider
 ![animated-slider](https://user-images.githubusercontent.com/57625094/164603368-ebfec5a4-a50c-4644-a7fb-3f81007758ee.gif)
 
 # 08. Personal Lorem Ipsum Generator
