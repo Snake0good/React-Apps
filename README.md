@@ -1,9 +1,24 @@
 # 30DaysOfReact Repo
-Check below for the pics/gifs of the finished products
 This a GitHub repo for my #30DaysOfReact challenge. I plan to build an app every day for an entire month to get more comfortable with React and it's structure. Some will be tutorials, some will be spin-offs, and some will be full creations by myself. Ok looking forward to learning and expanding my knowledge with a great front-ent framework.
+
+# The List
+1. Birthday Reminder
+2. Tour Choices
+3. Customer Reviews
+4. 1-Liner Dad Jokes
+5. Drink Menu
+6. Vacation Tab Selector
+7. Favorite Animated Characters
+8. Personal Lorem Ipsum Generator
+9. Color Generator
+10. Homework Scheduler
+11. Navbar
+12. Sidebar
+
 
 # Birthday Reminders
 This project was bootstrapped with Create React App.
+Check below for the pics/gifs of the finished products
 
 # 01. Birthday Reminders
 <img width="494" alt="screenShot" src="https://user-images.githubusercontent.com/57625094/164601571-3ad2bea5-4287-4f39-843f-69ee2a12be97.png">
