@@ -10,7 +10,7 @@ const Home = () => {
         <FaBars />
       </button>
       <button onClick={openModal} className='btn'>
-        show modal
+        Want to Smile?
       </button>
     </main>
   );
