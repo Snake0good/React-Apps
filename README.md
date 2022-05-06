@@ -14,6 +14,7 @@ This a GitHub repo for my #30DaysOfReact challenge. I plan to build an app every
 10. Homework Scheduler
 11. Navbar
 12. Sidebar
+13. Silly Sides SubMenus
 
 
 # Birthday Reminders
@@ -54,3 +55,8 @@ Check below for the pics/gifs of the finished products
 ![navbar](https://user-images.githubusercontent.com/57625094/164603591-b674901d-c63e-48fc-b972-3c75e2a4ede0.gif)
 
 # 12. Sidebar
+![cats-sidebar](https://user-images.githubusercontent.com/57625094/167071161-26ec2003-8bc5-4327-861c-24c314927f46.gif)
+
+# 13. Silly Sides SubMenues
+![silly-side](https://user-images.githubusercontent.com/57625094/167067875-f916cc2b-9004-4262-9d17-92ce97525032.gif)
+
