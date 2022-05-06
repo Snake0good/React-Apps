@@ -20,26 +20,26 @@ export const links = [
   },
   {
     id: 2,
-    url: '/team',
-    text: 'team',
+    url: '/cats',
+    text: 'cats',
     icon: <FaUserFriends />,
   },
   {
     id: 3,
-    url: '/projects',
-    text: 'projects',
+    url: '/cat-projects',
+    text: 'cat projects',
     icon: <FaFolderOpen />,
   },
   {
     id: 4,
-    url: '/calendar',
-    text: 'calendar',
+    url: '/cat-calendar',
+    text: 'cat calendar',
     icon: <FaCalendarAlt />,
   },
   {
     id: 5,
-    url: '/documents',
-    text: 'documents',
+    url: '/cat-documents',
+    text: 'cat documents',
     icon: <FaWpforms />,
   },
 ];
@@ -59,15 +59,5 @@ export const social = [
     id: 3,
     url: 'https://www.linkedin.com',
     icon: <FaLinkedin />,
-  },
-  {
-    id: 4,
-    url: 'https://www.twitter.com',
-    icon: <FaBehance />,
-  },
-  {
-    id: 5,
-    url: 'https://www.twitter.com',
-    icon: <FaSketch />,
   },
 ];
