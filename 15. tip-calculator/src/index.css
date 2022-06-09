@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inconsolata', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  background-color: rgb(184,222,222);
+  width: 100vw; 
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 600px;
+  height: 300px;
+  border-radius: 25px;
+  padding: 25px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#leftside, #rightside {
+  width: 47%;
+  height: 100%;
+  border-radius: 15px;
+  position: relative;
+}
+
+#rightside {
+  background-color: rgb(4,55,58);
+  color: white;
+}
+
+/* ================================== */
+/* ======== Radio Buttons =========== */
+/* ================================== */
+.radio-button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.radio-button input[type='radio'] {
+  display: none;
+}
+.radio-button label, #custom {
+  display: inline-block;
+  background-color: rgb(4,55,58);
+  color: white;
+  width: 27%;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 2% 1%;
+  padding: 8px 5px;
+  text-align: center;
+  border-radius: 5px;
+}
+.radio-button input[type='radio']:checked+label {
+  background-color: rgb(38,184,158	);
+  color: rgb(4,55,58);
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; 
+}
+
+#custom {
+  background-color: rgb(240,246,249);
+  color: rgb(4,55,58);
+  border: none;
+}
+#custom:hover {
+  outline: 2px solid rgb(38,184,158)
+}
+
+input:focus {
+  outline: none
+}
+
+/* ==========   Main  ============== */
+/* ======== Leftside CSS =========== */
+/* ================================= */
+#leftside{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.number-input {
+  width: 92%;
+  background-color: rgb(240,246,249);
+  border: none;
+  height: 40px;
+  text-align: right;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  padding-right: 15px;
+}
+.number-input::placeholder {
+  font-size: 1.2rem;
+}
+
+
+/* ==========   Main  ============== */
+/* ======== Rightside CSS =========== */
+/* ================================= */
+/* * {
+  outline: 1px solid red;
+} */
+
+#rightside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#top-tip, #bottom-tip {
+  display: flex;
+  align-items: space-between;
+  justify-content: space-between;
+  padding: 0 25px;
+}
+
+#reset {
+  margin: 25px;
+  border: none;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(38,184,158);
+  font-size: 1.1rem;
+}
+
+#reset:hover {
+  background-color: rgb(143,228,216);
+}
+
+#rightside h1, #rightside span {
+  color: rgb(38,184,158);
+}
+
+
+/* icons placement */
+#left-top, #left-bottom {
+  position: relative;
+}
+
+#bill-icon, #num-icon {
+  position: absolute;
+  left: 5px;
+  bottom: 10px;
+  font-size: 1.5rem;
+  color: rgb(184,222,222)
+}
+
+input {
+  font-family: 'Inconsolata', monospace;
+  font-weight: 800;
+}
