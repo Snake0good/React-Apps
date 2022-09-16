@@ -15,6 +15,9 @@ This a GitHub repo for my #30DaysOfReact challenge. I plan to build an app every
 11. Navbar
 12. Sidebar
 13. Silly Sides SubMenus
+14. Order Summary
+15. Tip Calculator
+16. Sunnyside Landing Page
 
 
 # Birthday Reminders
@@ -59,4 +62,13 @@ Check below for the pics/gifs of the finished products
 
 # 13. Silly Sides SubMenues
 ![silly-side](https://user-images.githubusercontent.com/57625094/167067875-f916cc2b-9004-4262-9d17-92ce97525032.gif)
+
+# 14. Order Summary
+<img width="678" alt="01  order-summary" src="https://user-images.githubusercontent.com/57625094/190676094-b44f0376-4f67-4be7-8563-021519a2c224.png">
+
+# 15. Tip Calculator
+![02  Tip Calculator gif](https://user-images.githubusercontent.com/57625094/190677162-d17bc0a3-8a5a-42b5-83fe-4d3ea8966fd9.gif)
+
+# 16. Sunnysude Landing Page
+![03  Sunnyside Landing Page](https://user-images.githubusercontent.com/57625094/190677483-bc0c7b39-bce5-4d8e-a10d-7e0d8ce04288.gif)
 
